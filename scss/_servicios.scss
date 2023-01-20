@@ -33,8 +33,10 @@
             position: absolute;
             top:0px;
             .containerHeaderContServicios_banner_title{
-                color: white;
+                color:$COLOR_ORANGE;
                 font-size: 100px;
+                padding: 20px;
+                font-weight: 700;
             }
         }
         

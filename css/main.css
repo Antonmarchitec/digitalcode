@@ -188,7 +188,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: #0c1b32;
 }
 .container .cont_descripcion_footer .cont_descripcion_redes {
-  width: 220px;
+  width: 150px;
   padding: 10px 0px;
   display: flex;
   flex-direction: row;
@@ -1039,8 +1039,10 @@ body::-webkit-scrollbar-thumb:hover {
   top: 0px;
 }
 .containerHeaderContServicios .container_banner .banner_text .containerHeaderContServicios_banner_title {
-  color: white;
+  color: #f8c630;
   font-size: 100px;
+  padding: 20px;
+  font-weight: 700;
 }
 .containerHeaderContServicios .containerHeaderContServicios_info {
   width: 100%;
@@ -4455,7 +4457,7 @@ h3 {
   margin: auto;
 }
 .contenedor .contenedor__title .title__sitio {
-  color: #96aadb;
+  color: #f8c630;
   font-size: 50px;
   line-height: 52px;
 }
