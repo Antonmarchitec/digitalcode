@@ -1,0 +1,53 @@
+@import "variables";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;     //600    //300
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    scroll-behavior:unset;
+    
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background: $colorAzulOscuro;
+    height: 100px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    cursor: pointer;
+}
+
+
+
+@import "variables";
+@import "about";
+@import "servicios";
+@import "blog";
+@import "contacto";
+@import "switchAlert";
+
+@import "btnTop";
+@import "_btnWatts";
+
+
+//IMPORT ARTICLES BLOGS//
+@import "../scss/styles_articles/art__bucles";
+
+//IMPORT FORMULARIOS FORMS
+@import "../scss/formularios/form_sitios_web";
