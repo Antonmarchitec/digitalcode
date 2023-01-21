@@ -330,14 +330,6 @@
 
 
 
-/**RESPONSIVE DESING OFICIAL NUEVO
-@media (min-width:1025px) and (max-width:1200px){}     175px
-@media (min-width:900px)  and (max-width:1024px){}     124px
-@media (min-width:770px)  and (max-width:899px){}      129px
-@media (min-width:641px)  and (max-width:769px){}      128px
-@media (min-width:481px)  and (max-width:640px){}      159px
-@media (min-width:320px)  and (max-width:480px){}      160px*/
-
 
 ////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////
@@ -365,58 +357,7 @@
             padding: 10px 0px;
             //background: brown;
             grid-area: HEADER;
-            .contHeader_nav{
-                width: 100%;
-                padding: 10px 0px;
-                background:$colorAzul;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                position: fixed;
-                left: 0;
-                top: 0;
-                box-shadow: 0px 5px 5px black;
-                z-index: 500;
-                .contHeader_nav_logo{
-                    margin-left: 20px;
-                    width: 100px;
-                    height: 50px;
-                    background:url(../img/LOGO/loogo.png);
-                    background-size: 100% 100%; 
-                }
-                .contHeader_nav_ul{
-                    margin-right: 20px;
-                    width: 150px;
-                    padding: 5px 0px;
-                    //background: yellow;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    align-items: center;
-                    list-style: none;
-                    .contHeader_nav_ul_cont{
-                        width: 50px;
-                        //background: brown;
-                        text-align: center;
-                        line-height: 20px;
-                        .iconMenu{
-                            font-size: 20px;
-                            color: $colorCelesteOscuro;
-                            &:hover{
-                                color: $colorVerde;
-                            }
-                        }
-                        .contHeader_nav_ul_title{
-                            font-size: 18px;
-                            color: $colorVerde;
-    
-                        }
-                    }
-                }
-            }
+            
         }
     
         .BARS_VERTICLE{
@@ -620,58 +561,7 @@
             padding: 10px 0px;
             //background: brown;
             grid-area: HEADER;
-            .contHeader_nav{
-                width: 100%;
-                padding: 10px 0px;
-                background:$colorAzul;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                position: fixed;
-                left: 0;
-                top: 0;
-                box-shadow: 0px 5px 5px black;
-                z-index: 500;
-                .contHeader_nav_logo{
-                    margin-left: 20px;
-                    width: 100px;
-                    height: 50px;
-                    background:url(../img/LOGO/loogo.png);
-                    background-size: 100% 100%; 
-                }
-                .contHeader_nav_ul{
-                    margin-right: 20px;
-                    width: 150px;
-                    padding: 5px 0px;
-                    //background: yellow;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    align-items: center;
-                    list-style: none;
-                    .contHeader_nav_ul_cont{
-                        width: 50px;
-                        //background: brown;
-                        text-align: center;
-                        line-height: 20px;
-                        .iconMenu{
-                            font-size: 20px;
-                            color: $colorCelesteOscuro;
-                            &:hover{
-                                color: $colorVerde;
-                            }
-                        }
-                        .contHeader_nav_ul_title{
-                            font-size: 18px;
-                            color: $colorVerde;
-    
-                        }
-                    }
-                }
-            }
+           
         }
     
         .BARS_VERTICLE{
@@ -872,58 +762,7 @@
             padding: 10px 0px;
             //background: brown;
             grid-area: HEADER;
-            .contHeader_nav{
-                width: 100%;
-                padding: 10px 0px;
-                background:$colorAzul;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                position: fixed;
-                left: 0;
-                top: 0;
-                box-shadow: 0px 5px 5px black;
-                z-index: 500;
-                .contHeader_nav_logo{
-                    margin-left: 20px;
-                    width: 100px;
-                    height: 50px;
-                    background:url(../img/LOGO/loogo.png);
-                    background-size: 100% 100%; 
-                }
-                .contHeader_nav_ul{
-                    margin-right: 20px;
-                    width: 150px;
-                    padding: 5px 0px;
-                    //background: yellow;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    align-items: center;
-                    list-style: none;
-                    .contHeader_nav_ul_cont{
-                        width: 50px;
-                        //background: brown;
-                        text-align: center;
-                        line-height: 20px;
-                        .iconMenu{
-                            font-size: 20px;
-                            color: $colorCelesteOscuro;
-                            &:hover{
-                                color: $colorVerde;
-                            }
-                        }
-                        .contHeader_nav_ul_title{
-                            font-size: 18px;
-                            color: $colorVerde;
-    
-                        }
-                    }
-                }
-            }
+           
         }
     
         .BARS_VERTICLE{
