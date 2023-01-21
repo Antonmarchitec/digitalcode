@@ -26,7 +26,7 @@
             margin-left: 20px;
         }
         .containerHeader_ul{
-            width: 800px;
+            width: 650px;
             padding: 10px 0px;
             display: flex;
             flex-direction: row;
@@ -64,7 +64,7 @@
         background-attachment: fixed;
         .contBase{
             width: 100%;
-            background:rgba(3, 4, 40, 0.655);
+            background:rgba(3, 4, 40, 0.808);
             padding: 150px 50px;
             display: flex;
             flex-direction:row;
@@ -106,11 +106,11 @@
                         margin-top: 30px;
                         width: 200px;
                         padding: 5px;
-                        background: $COLOR_ORANGE;
-                        color: $colorAzul;
+                        background: transparent;
+                        border: 1px solid $COLOR_ORANGE;
+                        color: $COLOR_ORANGE;
                         font-size: 18px;
                         font-weight: 300;
-                        border:none;
                         transition-duration: 0.1s;
                         transition-timing-function: ease;
                         margin-left: 50px;
@@ -118,15 +118,22 @@
                         .iconAB{
                             margin-left: 5px;
                             font-size: 25px;
-                            color: $colorAzul;
-                            
+                            color: $COLOR_ORANGE;
+                            transition: 0.2s all;
+
                         }
                     }
                     
                     .btnAcerca:hover{
-                        background: white;
+                        background: $COLOR_ORANGE;
                         color: $colorAzul;
                         cursor: pointer;
+                        border: 1px solid $COLOR_ORANGE;
+                        .iconAB{
+                            color: $colorAzul;
+                            
+                        }
+
                     }
                 }
     
@@ -149,15 +156,15 @@
     //BLOCK FOOTER
     .cont_descripcion_footer{
         width: 100%;
-        padding: 20px;
+        padding: 10px 20px;
         background:$COLOR_ORANGE;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         .cont_descripcion_logo{
-            width: 60px;
-            height:60px;
+            width: 50px;
+            height:50px;
         }
         .cont_descripcion_reserved{
             padding: 5px;
@@ -169,22 +176,22 @@
             }
         }
         .cont_descripcion_redes{
-            width: 150px;
+            width: 110px;
             padding: 10px 0px;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
             .cont_descripcion_redes_social{
-                width: 40px;
-                height: 40px;
+                width: 30px;
+                height: 30px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 background: $colorAzul;
                 border-radius: 5px;
                 .conRed{
-                    font-size: 20px;
+                    font-size: 15px;
                     color: $COLOR_ROSADO;
                     transition: 0.2s linear;
                 }

@@ -8,17 +8,17 @@ h2{        /* NOOOOO SE RESPETA LAS CLASE TITLE*/
 
 
 .class_popup{       /* SE RESPETA LAS CLASE POPUP LOS BORDES*/
-    box-shadow: 0px 0px 8px #56fbd3;
+    box-shadow: 0px 0px 8px $COLOR_ORANGE;
 }
 
 
 
 .class_buttonConfirm{
-    width: 180px;   /*SE RESPETA LAS CLASE DE LA BOTON*/
+    width: 180px;   /*SE RESPETA LAS CLASE DEL BOTON*/
     padding: 6px;
     border: 1px solid white;
     border-radius: 10px;
-    border: 2px solid #56fbd3;
+    border: 2px solid $COLOR_ORANGE;
     background: #0c1b32;
     color: white;
     cursor: pointer;
@@ -26,7 +26,7 @@ h2{        /* NOOOOO SE RESPETA LAS CLASE TITLE*/
 
 
 /*FOOTER*/
-h3{         /*SE RESPETA LAS CLASE DE LA BOTON*/
+h3{         /*SE RESPETA LAS CLASE DE FOOTER*/
     color: rgba(250, 250, 250, 0.872);
     font-size: 14px;
 }
