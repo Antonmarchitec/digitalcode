@@ -4490,27 +4490,25 @@ h3 {
   cursor: pointer;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks {
-  width: 190px;
+  width: 450px;
   margin: auto;
-  padding: 10px 0px;
+  padding: 5px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks .contentSection_blocks_number {
-  width: 30px;
-  height: 30px;
-  background: #efb60d;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 16px;
   cursor: pointer;
   font-weight: bold;
-  color: #0c1b32;
+  color: white;
   transition: 0.3s all;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks .contentSection_blocks_number:hover {
-  background: #060f1d;
   color: #efb60d;
 }
 .CONTAINER_LANDING .SIDEBAR {
