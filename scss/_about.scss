@@ -65,7 +65,7 @@
         .contBase{
             width: 100%;
             background:rgba(3, 4, 40, 0.808);
-            padding: 150px 50px;
+            padding: 120px 50px;
             display: flex;
             flex-direction:row;
             flex-wrap: wrap;
@@ -73,33 +73,27 @@
             align-items: center;
             position: relative;
             .contenedor_izq{
-                width:550px;
+                width:600px;
                 padding: 10px 0px;
                 .titulo_acerca{
-                    width: 100%;
+                    width: 95%;
                     padding: 5px 0px;
                     font-size: $SIZE_TITULOS;
                     color:$COLOR_ORANGE; 
-                    line-height: 80px;
-                    letter-spacing: $letterSpacing;
+                    line-height: 50px;
                     font-weight: 700; 
                 }
                 
                 .contenedorIzq_parrBtn{
                     margin-top: 20px;
                     width: 100%;
-                    padding: 5px 0px;
+                    padding: 5px 50px;
                     .descripcion_acerca{
-                        text-align: justify;
-                        color:  rgb(255, 255, 255);
+                        color:rgb(255, 255, 255);
                         font-weight: 300;
-                        font-size: 18px;
-                        margin-left: 50px;
+                        line-height: 25px;
                         position: relative;
-                        z-index: 10;
-                        .formms{
-                            color: $colorAzulOscuro;
-                        }    
+                        z-index: 10;  
                     }
 
                     .btnAcerca{
@@ -113,7 +107,6 @@
                         font-weight: 300;
                         transition-duration: 0.1s;
                         transition-timing-function: ease;
-                        margin-left: 50px;
                         transition: 0.2s all;
                         .iconAB{
                             margin-left: 5px;

@@ -52,7 +52,7 @@
 
         /*BLOCK TITLE*/
         .containerHeaderContServicios_info_title{
-            font-size: 50px;
+            font-size: $SIZE_TITULOS;
             text-align: center;
             color:$colorVerde;
             text-shadow: 0px 1px 0px $colorAzul;
@@ -60,12 +60,12 @@
 
         /*BLOCK DESCRIPCION*/
         .containerHeaderContServicios_info_descrpcion{
-            width: 80%;
+            width: 60%;
             margin: auto;
             padding: 10px 0px;
             text-align: center;
             color: white;
-            font-size: 25px;
+            font-size: 20px;
         }
 
         /*BLOCK ICON*/
@@ -98,20 +98,21 @@
 
         /*BLOCK IMAGE*/
         .containerHeaderContServicios_info_img{
-            margin: 30px auto;
-            width: 80%;
+            margin: auto;
+            padding: 2px 0px;
+            width: 90%;
         }
     }
 
 
 
     
-    //BLOCK REFERENCIAS
+    //BLOCK BOX REFERENCIAS
     .containerRef{
         width: 700px;
         padding: 10px;
         background:transparent;
-        margin: 50px auto;
+        margin: 30px auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -169,7 +170,7 @@
                 padding:10px;
                 .containerServices_boxA_text_title{
                     color: $colorVerde;
-                    font-size: 35px;
+                    font-size: $SIZE_SUB-TITULOS;
                     font-weight: 600;
 
                 }
@@ -247,7 +248,7 @@
                 padding:10px;
                 .containerServices_boxB_text_title{
                     color: $colorVerde;
-                    font-size: 35px;
+                    font-size: $SIZE_SUB-TITULOS;
                     font-weight: 600;
 
                 }
@@ -311,7 +312,7 @@
             width: 45%;
             line-height: 40px;
             color: $colorVerde;
-            font-size: 40px;
+            font-size: $SIZE_TITULOS;
             margin: auto;
             text-align: center;
         }
@@ -331,14 +332,17 @@
             justify-content: center;
             align-items: center;
             position: relative;
+
+            //IMAGE NUMBER
             .containerWeb_image{
                 width: 500px;
                 height: 400px;
             }
     
+            //BOX1
             .containerWeb_box1{
                 width: 200px;
-                height: 200px;
+                height: 220px;
                 padding: 20px;
                 position: absolute;
                 border:2px solid $colorVerde;
@@ -346,6 +350,7 @@
                 top: 50px;
                 left: 100px;
                 background: $colorAzul;
+                text-align: center;
                 .containerWeb_box_number{
                     width: 40px;
                     height: 40px;
@@ -361,22 +366,24 @@
                     top: -20px;
                     right: -20px;
                 }
+
                 .containerWeb_box_text{
                     color:white;
-                    font-size: 20px;
-                    line-height: 20px;
-    
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-transform: uppercase;
                 }
+
                 .containerWeb_box_desc{
-                    margin-top: 6px;
+                    margin-top: 15px;
                     color:$colorCelesteOscuro;
-                    font-size: 16px;
                 }
             }
     
+            //BOX2
             .containerWeb_box2{
                 width: 200px;
-                height: 200px;
+                height: 220px;
                 padding: 20px;
                 border:2px solid $colorVerde;
                 border-radius: 5px 5px 50px 5px;
@@ -384,6 +391,7 @@
                 top: 300px;
                 left: 80px;
                 background: $colorAzul;
+                text-align: center;
                 .containerWeb_box_number{
                     width: 40px;
                     height: 40px;
@@ -401,20 +409,20 @@
                 }
                 .containerWeb_box_text{
                     color:white;
-                    font-size: 20px;
-                    line-height: 20px;
-    
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-transform: uppercase;
                 }
                 .containerWeb_box_desc{
                     margin-top: 6px;
                     color:$colorCelesteOscuro;
-                    font-size: 16px;
                 }
             }
 
+            //BOX3
             .containerWeb_box3{
                 width: 200px;
-                height: 200px;
+                height: 220px;
                 padding: 20px;
                 border:2px solid $colorVerde;
                 border-radius: 5px 5px 5px 50px;
@@ -422,6 +430,7 @@
                 top: 50px;
                 right: 100px;
                 background: $colorAzul;
+                text-align: center;
                 .containerWeb_box_number{
                     width: 40px;
                     height: 40px;
@@ -439,20 +448,21 @@
                 }
                 .containerWeb_box_text{
                     color:white;
-                    font-size: 20px;
-                    line-height: 20px;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-transform: uppercase;
     
                 }
                 .containerWeb_box_desc{
                     margin-top: 6px;
                     color:$colorCelesteOscuro;
-                    font-size: 16px;
                 }
             }
 
+            //BOX4
             .containerWeb_box4{
                 width: 200px;
-                height: 200px;
+                height: 220px;
                 padding: 20px;
                 border:2px solid $colorVerde;
                 border-radius: 5px 5px 5px 50px;
@@ -460,6 +470,7 @@
                 top: 300px;
                 right: 80px;
                 background: $colorAzul;
+                text-align: center;
                 .containerWeb_box_number{
                     width: 40px;
                     height: 40px;
@@ -477,13 +488,13 @@
                 }
                 .containerWeb_box_text{
                     color:white;
-                    font-size: 20px;
-                    line-height: 20px;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-transform: uppercase;
                 }
                 .containerWeb_box_desc{
                     margin-top: 6px;
                     color:$colorCelesteOscuro;
-                    font-size: 16px;
                 }
             }
     
@@ -494,10 +505,10 @@
             width: 100%;
             padding: 10px 0px;
             .containerWeb_blockArticle_title{
-                width: 50%;
-                line-height: 40px;
+                width: 80%;
+                line-height: 42px;
                 color: $colorVerde;
-                font-size: 35px;
+                font-size: $SIZE_SUB-TITULOS;
                 text-align: center;
                 margin: 30px auto;
             }

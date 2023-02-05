@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
-  font-size: 18px;
 }
 
 a {
@@ -93,7 +92,7 @@ body::-webkit-scrollbar-thumb:hover {
 .container #cont_descripcion_foto .contBase {
   width: 100%;
   background: rgba(3, 4, 40, 0.808);
-  padding: 150px 50px;
+  padding: 120px 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -102,34 +101,28 @@ body::-webkit-scrollbar-thumb:hover {
   position: relative;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq {
-  width: 550px;
+  width: 600px;
   padding: 10px 0px;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
-  width: 100%;
+  width: 95%;
   padding: 5px 0px;
-  font-size: 50px;
+  font-size: 42px;
   color: #f8c630;
-  line-height: 80px;
-  letter-spacing: -3px;
+  line-height: 50px;
   font-weight: 700;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
   margin-top: 20px;
   width: 100%;
-  padding: 5px 0px;
+  padding: 5px 50px;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-  text-align: justify;
   color: rgb(255, 255, 255);
   font-weight: 300;
-  font-size: 18px;
-  margin-left: 50px;
+  line-height: 25px;
   position: relative;
   z-index: 10;
-}
-.container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
-  color: #060f1d;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
   margin-top: 30px;
@@ -142,7 +135,6 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: 300;
   transition-duration: 0.1s;
   transition-timing-function: ease;
-  margin-left: 50px;
   transition: 0.2s all;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
@@ -1059,18 +1051,18 @@ body::-webkit-scrollbar-thumb:hover {
   /*BLOCK IMAGE*/
 }
 .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_title {
-  font-size: 50px;
+  font-size: 42px;
   text-align: center;
   color: #efb60d;
   text-shadow: 0px 1px 0px #0c1b32;
 }
 .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_descrpcion {
-  width: 80%;
+  width: 60%;
   margin: auto;
   padding: 10px 0px;
   text-align: center;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_icon {
   width: 50px;
@@ -1099,14 +1091,15 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_img {
-  margin: 30px auto;
-  width: 80%;
+  margin: auto;
+  padding: 2px 0px;
+  width: 90%;
 }
 .containerHeaderContServicios .containerRef {
   width: 700px;
   padding: 10px;
   background: transparent;
-  margin: 50px auto;
+  margin: 30px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1158,7 +1151,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxA_text_title {
   color: #efb60d;
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 600;
 }
 .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxA_text_text {
@@ -1225,7 +1218,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_title {
   color: #efb60d;
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 600;
 }
 .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_text {
@@ -1277,7 +1270,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 45%;
   line-height: 40px;
   color: #efb60d;
-  font-size: 40px;
+  font-size: 42px;
   margin: auto;
   text-align: center;
 }
@@ -1302,7 +1295,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 {
   width: 200px;
-  height: 200px;
+  height: 220px;
   padding: 20px;
   position: absolute;
   border: 2px solid #efb60d;
@@ -1310,6 +1303,7 @@ body::-webkit-scrollbar-thumb:hover {
   top: 50px;
   left: 100px;
   background: #0c1b32;
+  text-align: center;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_number {
   width: 40px;
@@ -1328,17 +1322,17 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_text {
   color: white;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
-  margin-top: 6px;
+  margin-top: 15px;
   color: #96aadb;
-  font-size: 16px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
   width: 200px;
-  height: 200px;
+  height: 220px;
   padding: 20px;
   border: 2px solid #efb60d;
   border-radius: 5px 5px 50px 5px;
@@ -1346,6 +1340,7 @@ body::-webkit-scrollbar-thumb:hover {
   top: 300px;
   left: 80px;
   background: #0c1b32;
+  text-align: center;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_number {
   width: 40px;
@@ -1364,17 +1359,17 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_text {
   color: white;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
   margin-top: 6px;
   color: #96aadb;
-  font-size: 16px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
   width: 200px;
-  height: 200px;
+  height: 220px;
   padding: 20px;
   border: 2px solid #efb60d;
   border-radius: 5px 5px 5px 50px;
@@ -1382,6 +1377,7 @@ body::-webkit-scrollbar-thumb:hover {
   top: 50px;
   right: 100px;
   background: #0c1b32;
+  text-align: center;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_number {
   width: 40px;
@@ -1400,17 +1396,17 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_text {
   color: white;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
   margin-top: 6px;
   color: #96aadb;
-  font-size: 16px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
   width: 200px;
-  height: 200px;
+  height: 220px;
   padding: 20px;
   border: 2px solid #efb60d;
   border-radius: 5px 5px 5px 50px;
@@ -1418,6 +1414,7 @@ body::-webkit-scrollbar-thumb:hover {
   top: 300px;
   right: 80px;
   background: #0c1b32;
+  text-align: center;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_number {
   width: 40px;
@@ -1436,23 +1433,23 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_text {
   color: white;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
   margin-top: 6px;
   color: #96aadb;
-  font-size: 16px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
   width: 100%;
   padding: 10px 0px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_title {
-  width: 50%;
-  line-height: 40px;
+  width: 80%;
+  line-height: 42px;
   color: #efb60d;
-  font-size: 35px;
+  font-size: 36px;
   text-align: center;
   margin: 30px auto;
 }
@@ -4502,7 +4499,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   font-weight: bold;
   color: white;
