@@ -155,12 +155,12 @@
                     background:$colorAzul;
                     .contSectionWeb_desc_title{
                         color: $colorVerde;
-                        font-size: 45px;
+                        font-size: $SIZE_SUB-TITULOS;
                     }
     
                     .contSectionWeb_desc_text{
                         margin-top: 20px;
-                        color: $colorCelesteOscuro;
+                        color:$colorBlanco;
                     }
     
                     .contSectionWeb_desc_block{
@@ -183,8 +183,9 @@
                             .contSectionWeb_desc_block_box_desc{
                                 margin-top: 5px;
                                 .text{
-                                    color:white;
+                                    color:$colorBlanco;
                                     margin: 0;
+                                    font-size: 16px;
                                 }
                             }
                         }
@@ -195,7 +196,7 @@
                     .contSectionWeb_desc_btn{
                         margin-top: 5px;
                         width: 200px;
-                        padding: 6px 0px;
+                        padding: 10px 0px;
                         border: 2px solid $colorVerde;
                         background: $colorAzulTransparente;
                         color: white;
@@ -213,11 +214,6 @@
             
         }
         
-        
-    
-
-        
-
         //BLOQUE DE LOS NUMERADORES////////////////////////////////////////
         .contentSection_blocks{
             width: 450px;
@@ -241,8 +237,6 @@
                 color: $colorVerde;
             }
         }
-
-        
     }
 
     //GRID SIDEBAR

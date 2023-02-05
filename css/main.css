@@ -4451,11 +4451,11 @@ h3 {
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
   color: #efb60d;
-  font-size: 45px;
+  font-size: 36px;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_text {
   margin-top: 20px;
-  color: #96aadb;
+  color: #ffffff;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block {
   width: 100%;
@@ -4479,13 +4479,14 @@ h3 {
   margin-top: 5px;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc .text {
-  color: white;
+  color: #ffffff;
   margin: 0;
+  font-size: 16px;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn {
   margin-top: 5px;
   width: 200px;
-  padding: 6px 0px;
+  padding: 10px 0px;
   border: 2px solid #efb60d;
   background: rgba(12, 27, 50, 0.6980392157);
   color: white;
@@ -5439,7 +5440,7 @@ h3 {
 }
 .contBtnTop .iconTop {
   font-size: 40px;
-  color: #56fbd3;
+  color: #ffffff;
   color: #efb60d;
   opacity: 0;
   transition: 0.5s all;
