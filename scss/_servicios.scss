@@ -109,7 +109,7 @@
     
     //BLOCK BOX REFERENCIAS
     .containerRef{
-        width: 700px;
+        width: 800px;
         padding: 10px;
         background:transparent;
         margin: 30px auto;
@@ -119,28 +119,40 @@
         justify-content: space-around;
         align-items: center;
         .containerRef_box{
-            width: 200px;
-            padding: 15px;
-            border: 1.5px solid $colorVerde;
+            width: 240px;
+            height: 180px;
+            padding: 20px 10px;
+            border: 2px solid $colorVerde;
             border-radius: 3px;
             margin-bottom: 10px;
-            transition: 0.1s all;
+            transition: 0.3s all;
             .containerRef_box_image{
-                width: 80px;
+                width: 50%;
                 height: 80px;
                 margin: auto;
             }
 
             .containerRef_box_text{
+                width: 80%;
+                margin: 15px auto;
                 color: white;
                 text-align: center;
+                text-transform: uppercase;
+                transition: 0.3s all 0.35s;
+                font-weight: 700;
+
             }
         }
 
         .containerRef_box:hover{
-            transform: scale(1.02);
-            box-shadow: 0px 0px 8px $colorVerde;
+            background:$colorAzulOscuro;
+            border: 2px solid $colorAzul;
+            .containerRef_box_text{
+                color: $COLOR_ORANGE;
+                font-weight: 700;
 
+                
+            }
         }
     }
     

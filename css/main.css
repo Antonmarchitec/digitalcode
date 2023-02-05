@@ -1096,7 +1096,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 90%;
 }
 .containerHeaderContServicios .containerRef {
-  width: 700px;
+  width: 800px;
   padding: 10px;
   background: transparent;
   margin: 30px auto;
@@ -1107,25 +1107,35 @@ body::-webkit-scrollbar-thumb:hover {
   align-items: center;
 }
 .containerHeaderContServicios .containerRef .containerRef_box {
-  width: 200px;
-  padding: 15px;
-  border: 1.5px solid #efb60d;
+  width: 240px;
+  height: 180px;
+  padding: 20px 10px;
+  border: 2px solid #efb60d;
   border-radius: 3px;
   margin-bottom: 10px;
-  transition: 0.1s all;
+  transition: 0.3s all;
 }
 .containerHeaderContServicios .containerRef .containerRef_box .containerRef_box_image {
-  width: 80px;
+  width: 50%;
   height: 80px;
   margin: auto;
 }
 .containerHeaderContServicios .containerRef .containerRef_box .containerRef_box_text {
+  width: 80%;
+  margin: 15px auto;
   color: white;
   text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s all 0.35s;
+  font-weight: 700;
 }
 .containerHeaderContServicios .containerRef .containerRef_box:hover {
-  transform: scale(1.02);
-  box-shadow: 0px 0px 8px #efb60d;
+  background: #060f1d;
+  border: 2px solid #0c1b32;
+}
+.containerHeaderContServicios .containerRef .containerRef_box:hover .containerRef_box_text {
+  color: #f8c630;
+  font-weight: 700;
 }
 .containerHeaderContServicios .containerServices {
   width: 100%;
