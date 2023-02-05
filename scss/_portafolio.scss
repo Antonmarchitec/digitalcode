@@ -243,10 +243,11 @@
     .SIDEBAR{
         margin-top: 45px;
         padding: 30px 10px;
-        background:$colorAzul;
+        background:#060f1d;
         grid-area:SIDEBAR;
         .sidebarTitle{
-            color: white;
+            margin-top: 50px;
+            color:$COLOR_ORANGE;
             letter-spacing: -1px;
             font-size: 28px;
             
@@ -254,9 +255,30 @@
         .contSidebar{
             margin-top: 15px;
             width: 100%;
+            padding: 10px 0px;
             .contSidebar_bloque{
                width: 100%;
-               margin-bottom: 10px;
+               margin-top: 50px;
+               margin-bottom: 100px;
+            }
+
+            .contSidebar_bloque_title{
+                margin: 10px 0px;
+                font-size: 22px;
+                color: $COLOR_ORANGE;
+            }
+
+            .contSidebar_bloque_text{
+                color:$colorBlanco;
+                font-size: 14px;
+            }
+
+            .contSidebar_bloque_link{
+                color: $COLOR_ORANGE;
+                font-size: 14px;
+                float: right;
+                margin-top: 20px;
+                margin-right: 20px;
             }
         }
     }

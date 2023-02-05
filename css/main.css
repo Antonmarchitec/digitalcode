@@ -4522,21 +4522,40 @@ h3 {
 .CONTAINER_LANDING .SIDEBAR {
   margin-top: 45px;
   padding: 30px 10px;
-  background: #0c1b32;
+  background: #060f1d;
   grid-area: SIDEBAR;
 }
 .CONTAINER_LANDING .SIDEBAR .sidebarTitle {
-  color: white;
+  margin-top: 50px;
+  color: #f8c630;
   letter-spacing: -1px;
   font-size: 28px;
 }
 .CONTAINER_LANDING .SIDEBAR .contSidebar {
   margin-top: 15px;
   width: 100%;
+  padding: 10px 0px;
 }
 .CONTAINER_LANDING .SIDEBAR .contSidebar .contSidebar_bloque {
   width: 100%;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.CONTAINER_LANDING .SIDEBAR .contSidebar .contSidebar_bloque_title {
+  margin: 10px 0px;
+  font-size: 22px;
+  color: #f8c630;
+}
+.CONTAINER_LANDING .SIDEBAR .contSidebar .contSidebar_bloque_text {
+  color: #ffffff;
+  font-size: 14px;
+}
+.CONTAINER_LANDING .SIDEBAR .contSidebar .contSidebar_bloque_link {
+  color: #f8c630;
+  font-size: 14px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 .CONTAINER_LANDING .FOOTER {
   padding: 10px 0px;
