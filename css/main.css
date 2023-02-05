@@ -102,7 +102,7 @@ body::-webkit-scrollbar-thumb:hover {
   position: relative;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq {
-  width: 600px;
+  width: 550px;
   padding: 10px 0px;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {

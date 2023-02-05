@@ -6,35 +6,15 @@
             "imagen":"./image/BLOG/blog_img_1.jpg",
             "descripcion": " Alguna vez te preguntaste cuando debemos utilizar while o for?. Mira este post para aclararte mejor algunas de tus dudas.",
             "fuente":" -- Fuente: DigitizingCode. --"
-        },
-        {
-            "id":2,
-            "title":" W3C (Markup Validation Service) ",
-            "imagen":"./image/BLOG/blog_img_3.jpg",
-            "descripcion": "Lo que hace el W3C validator es revisar tu código HTML o XHTML buscando errores de sintaxis, verifica si existe una estructuración limpia y correcta utilizando etiquetas semánticas, devolviéndote el resultado de la prueba de validación. URL https://validator.w3.org/#validate_by_input ✌✌",
-            "fuente":" -- Fuente: DigitizingCode. --"
-
         }
-       
-                    
     ],
 
     "blog_8_14":[
-        {
-            "id":4,
-            "title":"Años codificando profesionalmente",
-            "imagen":"./image/developer.jpg",
-            "descripcion": "La mayoría de los encuestados (75 %) han estado trabajando durante 14 años o menos como desarrolladores profesionales, lo que significa que nunca han trabajado en un mundo sin Stack Overflow. || Fuente: Stack Overflow."
-        }
+        
     ],
     
     "blog_15_21":[
-        {
-            "id":4,
-            "title":"Años codificando profesionalmente",
-            "imagen":"./image/developer.jpg",
-            "descripcion": "La mayoría de los encuestados (75 %) han estado trabajando durante 14 años o menos como desarrolladores profesionales, lo que significa que nunca han trabajado en un mundo sin Stack Overflow. || Fuente: Stack Overflow."
-        }
+       
     ]    
 
 }
