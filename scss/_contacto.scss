@@ -33,13 +33,12 @@
             justify-content: space-around;
             align-items: center;
             .containerContact_blockSup_box{
-                 width: 170px;
-                 height: 150px;
+                 width: 250px;
+                 height: 130px;
                  padding-top: 65px;
                  text-align: center;
                  background: $colorAzul;
                  position: relative;
-
                  //BLOCK IMAGE
                  .containerContact_blockSup_box_img{
                     width: 60px;
@@ -66,6 +65,7 @@
 
                  //BLOCK PARRAFO
                  .containerContact_blockSup_box_Parrafo{
+                    margin-top: 3px;
                     color:white;
                     font-size: 15px;
                  }

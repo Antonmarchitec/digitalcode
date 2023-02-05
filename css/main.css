@@ -4063,8 +4063,8 @@ body::-webkit-scrollbar-thumb:hover {
   align-items: center;
 }
 .containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box {
-  width: 170px;
-  height: 150px;
+  width: 250px;
+  height: 130px;
   padding-top: 65px;
   text-align: center;
   background: #0c1b32;
@@ -4091,6 +4091,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: #efb60d;
 }
 .containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box .containerContact_blockSup_box_Parrafo {
+  margin-top: 3px;
   color: white;
   font-size: 15px;
 }
