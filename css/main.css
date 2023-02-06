@@ -4525,16 +4525,10 @@ h3 {
   background: #060f1d;
   grid-area: SIDEBAR;
 }
-.CONTAINER_LANDING .SIDEBAR .sidebarTitle {
-  margin-top: 50px;
-  color: #f8c630;
-  letter-spacing: -1px;
-  font-size: 28px;
-}
 .CONTAINER_LANDING .SIDEBAR .contSidebar {
   margin-top: 15px;
   width: 100%;
-  padding: 10px 0px;
+  padding: 10px 20px;
 }
 .CONTAINER_LANDING .SIDEBAR .contSidebar .contSidebar_bloque {
   width: 100%;
@@ -5722,7 +5716,7 @@ h3 {
 }
 .contenedor .contenedor__centro .contenedor__form .contButon {
   width: 100%;
-  padding: 4px 0px;
+  padding: 10px 0px;
   border: 2px solid #efb60d;
   border-radius: 5px;
   margin-top: 20px;
