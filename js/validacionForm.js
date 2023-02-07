@@ -463,7 +463,7 @@ function validarFormularioDetalle(){
                         
                     },
             });
-            return false
+            return true
         }
 }
 
