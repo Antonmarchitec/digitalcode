@@ -4139,7 +4139,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerContact .containerContactBig .containerContact_form .button {
   width: 200px;
-  padding: 6px 0px;
+  padding: 10px 0px;
   border-radius: 5px;
   border: 2px solid #efb60d;
   background-color: #efb60d;
@@ -4498,10 +4498,11 @@ h3 {
   cursor: pointer;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks {
-  width: 450px;
+  width: 600px;
   margin: auto;
   padding: 5px 0px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
