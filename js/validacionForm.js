@@ -259,7 +259,7 @@ function validar(){
                   
               },
       });
-      return false
+      return true
   }
 }
 
@@ -463,7 +463,7 @@ function validarFormularioDetalle(){
                        
                    },
            });
-           return false
+           return true
        }
 }
 
@@ -472,7 +472,7 @@ function validarFormularioDetalle(){
 
 
 
-    
+
 
 
 
