@@ -259,7 +259,7 @@ function validar(){
                   
               },
       });
-      return true
+      return false
   }
 }
 
@@ -463,7 +463,7 @@ function validarFormularioDetalle(){
                        
                    },
            });
-           return true
+           return false
        }
 }
 
