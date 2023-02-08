@@ -159,7 +159,7 @@
                     <img src="./image/web.jpg" alt="mockup2" style="width: 100%;height:50%;">
                 </figure>
 
-                <form class="contenedor__form" action="enviar.php" method="Post" onsubmit="return validarFormularioDetalle();"> 
+                <form class="contenedor__form" action="./enviar.php" method="Post" onsubmit="return validarFormularioDetalle();"> 
                     <div class="contenedor__name">
                         <input type="text" placeholder="Nombre completo" class="formInput"
                         name="nombre" id="nameDetalle">
@@ -170,7 +170,7 @@
                         name="email" id="mailDetalle">
                     </div>
         
-                    <textarea class="contTextarea" placeholder="Cuales son tus requerimientos?"
+                    <textarea class="contTextarea" name="comentario" placeholder="Cuales son tus requerimientos?"
                     id="textareaDetalle"></textarea>
                     
                     <button type="submit" class="contButon" onclick="validarFormularioDetalle()"> Enviar cotizacion </button>
