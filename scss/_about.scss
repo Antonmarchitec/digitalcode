@@ -203,113 +203,22 @@
 
 
 
-/*
-
-RESPONSIVE DESING OFICIAL NUEVO
-@media (min-width:1025px) and (max-width:1200px){}     175px
-@media (min-width:900px)  and (max-width:1024px){}     124px
-@media (min-width:770px)  and (max-width:899px){}      129px
-@media (min-width:641px)  and (max-width:769px){}      128px
-@media (min-width:481px)  and (max-width:640px){}      159px
-@media (min-width:320px)  and (max-width:480px){}      160px
-
-
-*/
-
-
-
-
-
 /*******************************
 *********************************/
-@media (min-width:320px) and (max-width:899px){
+@media (min-width:1025px) and (max-width:1200px){
     .container{
         width: 100%;
         max-width: 1440px;
         margin: auto;
         overflow: hidden;
-        //padding: 10px 0px;
-    
+        
         //BLOCK HEADER
-        .containerHeader{
-            width: 100%;
-            padding: 10px 0px;
-            background:$colorAzulOscuro;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            left: 0;
-            top: 0;
-            right: 0;
-            z-index: 500;
-            .containerHeader_logo{
-                width: 300px;
-                height: 80px;
-                margin-left: 20px;
-            }
-            .containerHeader_ul{
-                width: 250px;
-                padding: 10px 0px;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                align-items:flex-start;
-                position: fixed;
-                left: 0;
-                top: 100px;
-                background:$colorAzulOscuro;
-                overflow: hidden;
-                .containerHeader_ul_li{
-                    width: 85%;
-                    padding: 18px 20px;
-                    list-style: none;
-                    text-align: start;
-                    transition: 0.3s linear;
-                    margin-left: 20px;
-                    margin-bottom: 5px;
-                    border-radius:10px 10px 10px 10px ;
-                    .containerHeader_ul_li_a{
-                        text-decoration: none;
-                        color: white;
-                        transition: 0.8s linear;
-                        font-weight: 400;
+        //MANTIENE LOS ESTILOS
+        
 
-                    }
-                }
-
-                .containerHeader_ul_li:hover{
-                    background: $COLOR_ORANGE;
-                    .containerHeader_ul_li_a{
-                        color: $colorAzulOscuro;
-                        font-weight: 400;
-                    }
-                }
-    
-            }
-
-            .containerHeader_ul::after{
-                content: "";
-                position: absolute;
-                left: 0;
-                top:calc(50% - 15px);
-                display: block;
-                border-bottom: 15px solid transparent;
-                border-top: 15px solid transparent;
-                border-left: 15px solid $COLOR_ORANGE;
-                border-right: 15px solid transparent;
-
-            }
-            .containerHeader_btn{
-                margin-right: 20px;
-                display: block;
-            }
-        }
-    
         //BLOCK ABOUT AS
         #cont_descripcion_foto{
-            margin-top:100px;
+            margin-top: 120px;
             width: 100%;
             background:$colorAzul;
             background-image: url(../image/fondoPro.jpg);
@@ -318,7 +227,7 @@ RESPONSIVE DESING OFICIAL NUEVO
             .contBase{
                 width: 100%;
                 background:rgba(3, 4, 40, 0.808);
-                padding: 120px 50px;
+                padding: 80px 0px;
                 display: flex;
                 flex-direction:row;
                 flex-wrap: wrap;
@@ -326,10 +235,13 @@ RESPONSIVE DESING OFICIAL NUEVO
                 align-items: center;
                 position: relative;
                 .contenedor_izq{
-                    width:600px;
+                    width:50%;
                     padding: 10px 0px;
+                    margin-left: 40px;
+                    z-index: 100;
+
                     .titulo_acerca{
-                        width: 95%;
+                        width: 500px;
                         padding: 5px 0px;
                         font-size: $SIZE_TITULOS;
                         color:$COLOR_ORANGE; 
@@ -387,11 +299,712 @@ RESPONSIVE DESING OFICIAL NUEVO
                 .contenedor_der{
                     position: absolute;
                     top:40px;
-                    right: 50px;
-                    width: 50%;
+                    right: 20px;
+                    width: initial;
                     .contenedor_der_image{
-                        width: auto;
-                        height: 450px;
+                        width: 550px;
+                        height: 400px;
+                    }
+                } 
+            }
+    
+           
+        }
+    
+        //BLOCK FOOTER
+        //MANTINENE LOS ESTILOS
+    }
+}   
+
+
+
+
+
+/*******************************
+*********************************/
+@media (min-width:900px)  and (max-width:1024px){
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        overflow: hidden;
+        
+        //BLOCK HEADER
+        //MANTIENE LOS ESTILOS
+        
+
+        //BLOCK ABOUT AS
+        #cont_descripcion_foto{
+            margin-top: 120px;
+            width: 100%;
+            background:$colorAzul;
+            background-image: url(../image/fondoPro.jpg);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            .contBase{
+                width: 100%;
+                background:rgba(3, 4, 40, 0.808);
+                padding: 50px 0px;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                .contenedor_izq{
+                    width:100%;
+                    padding: 10px 0px;
+                    margin-left: initial;
+                    z-index: initial;
+                    .titulo_acerca{
+                        width: 550px;
+                        margin: auto;
+                        padding: 0px;
+                        font-size: $SIZE_SUB-TITULOS;
+                        color:$COLOR_ORANGE; 
+                        line-height: 40px;
+                        font-weight: 700; 
+                        text-align: center;
+                    }
+                    
+                    .contenedorIzq_parrBtn{
+                        margin-top: 20px;
+                        width: 50%;
+                        padding: 5px 50px;
+                        .descripcion_acerca{
+                            color:rgb(255, 255, 255);
+                            font-weight: 300;
+                            line-height: 25px;
+                            position: relative;
+                            z-index: 10;  
+                        }
+    
+                        .btnAcerca{
+                            margin-top: 30px;
+                            width: 200px;
+                            padding: 5px;
+                            background: transparent;
+                            border: 1px solid $COLOR_ORANGE;
+                            color: $COLOR_ORANGE;
+                            font-size: 18px;
+                            font-weight: 300;
+                            transition-duration: 0.1s;
+                            transition-timing-function: ease;
+                            transition: 0.2s all;
+                            .iconAB{
+                                margin-left: 5px;
+                                font-size: 25px;
+                                color: $COLOR_ORANGE;
+                                transition: 0.2s all;
+    
+                            }
+                        }
+                        
+                        .btnAcerca:hover{
+                            background: $COLOR_ORANGE;
+                            color: $colorAzul;
+                            cursor: pointer;
+                            border: 1px solid $COLOR_ORANGE;
+                            .iconAB{
+                                color: $colorAzul;
+                                
+                            }
+    
+                        }
+                    }
+        
+                }
+                .contenedor_der{
+                    position: absolute;
+                    top:180px;
+                    right:40px;
+                    width:50%;
+                    height:initial;
+                    .contenedor_der_image{
+                        width: 100%;
+                        height: 300px;
+                    }
+                } 
+            }
+    
+           
+        }
+    
+        //BLOCK FOOTER
+        //MANTINENE LOS ESTILOS
+    }
+}
+
+
+
+
+/*******************************
+*********************************/
+@media (min-width:770px) and (max-width:899px){
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        overflow: hidden;
+        //padding: 10px 0px;
+    
+        //BLOCK HEADER
+        .containerHeader{
+            width: 100%;
+            padding: 10px 0px;
+            background:$colorAzulOscuro;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            z-index: 500;
+            .containerHeader_logo{
+                width: 250px;
+                height: 80px;
+                margin-left: 20px;
+            }
+            .containerHeader_ul{
+                width: 250px;
+                height: 100vh;
+                padding: 10px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items:flex-start;
+                position: fixed;
+                left: -100%;
+                top: 100px;
+                background:$colorAzulOscuro;
+                overflow: hidden;
+                transition: 0.3s all ease-in;
+                .containerHeader_ul_li{
+                    width: 85%;
+                    padding: 18px 20px;
+                    list-style: none;
+                    text-align: start;
+                    transition: 0.3s linear;
+                    margin-left: 20px;
+                    margin-bottom: 5px;
+                    border-radius:10px 10px 10px 10px ;
+                    .containerHeader_ul_li_a{
+                        text-decoration: none;
+                        color: white;
+                        transition: 0.8s linear;
+                        font-weight: 400;
+
+                    }
+                }
+
+                .containerHeader_ul_li:hover{
+                    background: $COLOR_ORANGE;
+                    .containerHeader_ul_li_a{
+                        color: $colorAzulOscuro;
+                        font-weight: 400;
+                    }
+                }
+    
+            }
+
+            .containerHeader_ul::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                top:calc(50% - 15px);
+                display: block;
+                border-bottom: 15px solid transparent;
+                border-top: 15px solid transparent;
+                border-left: 15px solid $COLOR_ORANGE;
+                border-right: 15px solid transparent;
+
+            }
+
+            .containerHeader_ul_JS{
+                left: 0;
+            }
+            .containerHeader_btn{
+                margin-right: 20px;
+                display: block;
+            }
+        }
+    
+        //BLOCK ABOUT AS
+        #cont_descripcion_foto{
+            margin-top: 100px;
+            width: 100%;
+            background:$colorAzul;
+            background-image: url(../image/fondoPro.jpg);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            .contBase{
+                width: 100%;
+                background:rgba(3, 4, 40, 0.808);
+                padding: 50px 0px;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                .contenedor_izq{
+                    width:100%;
+                    padding: 10px 0px;
+                    margin-left: initial;
+                    z-index: initial;
+                    .titulo_acerca{
+                        width: 550px;
+                        margin: auto;
+                        padding: 0px;
+                        font-size: $SIZE_SUB-TITULOS;
+                        color:$COLOR_ORANGE; 
+                        line-height: 40px;
+                        font-weight: 700; 
+                        text-align: center;
+                    }
+                    
+                    .contenedorIzq_parrBtn{
+                        margin-top: 20px;
+                        width: 50%;
+                        padding: 5px 50px;
+                        .descripcion_acerca{
+                            color:rgb(255, 255, 255);
+                            font-weight: 300;
+                            line-height: 25px;
+                            position: relative;
+                            z-index: 10;  
+                        }
+    
+                        .btnAcerca{
+                            margin-top: 30px;
+                            width: 200px;
+                            padding: 5px;
+                            background: transparent;
+                            border: 1px solid $COLOR_ORANGE;
+                            color: $COLOR_ORANGE;
+                            font-size: 18px;
+                            font-weight: 300;
+                            transition-duration: 0.1s;
+                            transition-timing-function: ease;
+                            transition: 0.2s all;
+                            .iconAB{
+                                margin-left: 5px;
+                                font-size: 25px;
+                                color: $COLOR_ORANGE;
+                                transition: 0.2s all;
+    
+                            }
+                        }
+                        
+                        .btnAcerca:hover{
+                            background: $COLOR_ORANGE;
+                            color: $colorAzul;
+                            cursor: pointer;
+                            border: 1px solid $COLOR_ORANGE;
+                            .iconAB{
+                                color: $colorAzul;
+                                
+                            }
+    
+                        }
+                    }
+        
+                }
+                .contenedor_der{
+                    position: absolute;
+                    top:180px;
+                    right:40px;
+                    width:50%;
+                    height:initial;
+                    .contenedor_der_image{
+                        width: 100%;
+                        height: 300px;
+                    }
+                } 
+            }
+    
+           
+        }
+    
+        //BLOCK FOOTER
+        //MANTIENE LOS ESTILLOS
+        
+    }
+    
+}
+
+
+
+/*******************************
+*********************************/
+@media (min-width:641px) and (max-width:769px){
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        overflow: hidden;
+        //padding: 10px 0px;
+    
+        //BLOCK HEADER
+        .containerHeader{
+            width: 100%;
+            padding: 10px 0px;
+            background:$colorAzulOscuro;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            z-index: 500;
+            .containerHeader_logo{
+                width: 250px;
+                height: 80px;
+                margin-left: 20px;
+            }
+            .containerHeader_ul{
+                width: 250px;
+                height: 100vh;
+                padding: 10px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items:flex-start;
+                position: fixed;
+                left: -100%;
+                top: 100px;
+                background:$colorAzulOscuro;
+                overflow: hidden;
+                transition: 0.3s all ease-in;
+                .containerHeader_ul_li{
+                    width: 85%;
+                    padding: 18px 20px;
+                    list-style: none;
+                    text-align: start;
+                    transition: 0.3s linear;
+                    margin-left: 20px;
+                    margin-bottom: 5px;
+                    border-radius:10px 10px 10px 10px ;
+                    .containerHeader_ul_li_a{
+                        text-decoration: none;
+                        color: white;
+                        transition: 0.8s linear;
+                        font-weight: 400;
+
+                    }
+                }
+
+                .containerHeader_ul_li:hover{
+                    background: $COLOR_ORANGE;
+                    .containerHeader_ul_li_a{
+                        color: $colorAzulOscuro;
+                        font-weight: 400;
+                    }
+                }
+    
+            }
+
+            .containerHeader_ul::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                top:calc(50% - 15px);
+                display: block;
+                border-bottom: 15px solid transparent;
+                border-top: 15px solid transparent;
+                border-left: 15px solid $COLOR_ORANGE;
+                border-right: 15px solid transparent;
+
+            }
+
+            .containerHeader_ul_JS{
+                left: 0;
+            }
+            .containerHeader_btn{
+                margin-right: 20px;
+                display: block;
+            }
+        }
+    
+        //BLOCK ABOUT AS
+        #cont_descripcion_foto{
+            margin-top: 100px;
+            width: 100%;
+            background:$colorAzul;
+            background-image: url(../image/fondoPro.jpg);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            .contBase{
+                width: 100%;
+                background:rgba(3, 4, 40, 0.808);
+                padding: 50px 0px;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                position: initial;
+                .contenedor_izq{
+                    width:100%;
+                    padding: 10px 0px;
+                    margin-left: initial;
+                    z-index: initial;
+                    .titulo_acerca{
+                        width: 550px;
+                        margin: auto;
+                        padding: 0px;
+                        font-size: $SIZE_SUB-TITULOS;
+                        color:$COLOR_ORANGE; 
+                        line-height: 40px;
+                        font-weight: 700; 
+                        text-align: center;
+                    }
+                    
+                    .contenedorIzq_parrBtn{
+                        margin-top: 20px;
+                        width: 100%;
+                        padding: 5px 20px;
+                        .descripcion_acerca{
+                            color:rgb(255, 255, 255);
+                            font-weight: 300    ;
+                            line-height: 25px;
+                            position: relative;
+                            z-index: 10;  
+                            text-align: center;
+                        }
+    
+                        .btnAcerca{
+                            margin-top: 30px;
+                            margin-left: calc(50% - 100px);
+                            width: 200px;
+                            padding: 5px;
+                            background: transparent;
+                            border: 1px solid $COLOR_ORANGE;
+                            color: $COLOR_ORANGE;
+                            font-size: 18px;
+                            font-weight: 300;
+                            transition-duration: 0.1s;
+                            transition-timing-function: ease;
+                            transition: 0.2s all;
+                            .iconAB{
+                                margin-left: 5px;
+                                font-size: 25px;
+                                color: $COLOR_ORANGE;
+                                transition: 0.2s all;
+    
+                            }
+                        }
+                        
+                    }
+        
+                }
+                .contenedor_der{
+                    position: initial;
+                    top:initial;
+                    right:initial;
+                    width:80%;
+                    height:initial;
+                    margin: 20px auto;
+                    .contenedor_der_image{
+                        width: 100%;
+                        height:initial;
+                    }
+                } 
+            }
+    
+           
+        }
+    
+        //BLOCK FOOTER
+        //MANTIENE LOS ESTILLOS
+        
+    }
+    
+}
+
+
+
+
+
+/*******************************
+*********************************/
+@media (min-width:481px) and (max-width:640px){
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        overflow: hidden;
+        //padding: 10px 0px;
+    
+        //BLOCK HEADER
+        .containerHeader{
+            width: 100%;
+            padding: 10px 0px;
+            background:$colorAzulOscuro;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            z-index: 500;
+            .containerHeader_logo{
+                width: 250px;
+                height: 80px;
+                margin-left: 20px;
+            }
+            .containerHeader_ul{
+                width: 250px;
+                height: 100vh;
+                padding: 10px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items:flex-start;
+                position: fixed;
+                left: -100%;
+                top: 100px;
+                background:$colorAzulOscuro;
+                overflow: hidden;
+                transition: 0.3s all ease-in;
+                .containerHeader_ul_li{
+                    width: 85%;
+                    padding: 18px 20px;
+                    list-style: none;
+                    text-align: start;
+                    transition: 0.3s linear;
+                    margin-left: 20px;
+                    margin-bottom: 5px;
+                    border-radius:10px 10px 10px 10px ;
+                    .containerHeader_ul_li_a{
+                        text-decoration: none;
+                        color: white;
+                        transition: 0.8s linear;
+                        font-weight: 400;
+
+                    }
+                }
+
+                .containerHeader_ul_li:hover{
+                    background: $COLOR_ORANGE;
+                    .containerHeader_ul_li_a{
+                        color: $colorAzulOscuro;
+                        font-weight: 400;
+                    }
+                }
+    
+            }
+
+            .containerHeader_ul::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                top:calc(50% - 15px);
+                display: block;
+                border-bottom: 15px solid transparent;
+                border-top: 15px solid transparent;
+                border-left: 15px solid $COLOR_ORANGE;
+                border-right: 15px solid transparent;
+
+            }
+
+            .containerHeader_ul_JS{
+                left: 0;
+            }
+            .containerHeader_btn{
+                margin-right: 20px;
+                display: block;
+            }
+        }
+    
+        //BLOCK ABOUT AS
+        #cont_descripcion_foto{
+            margin-top: 100px;
+            width: 100%;
+            background:$colorAzul;
+            background-image: url(../image/fondoPro.jpg);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            .contBase{
+                width: 100%;
+                background:rgba(3, 4, 40, 0.808);
+                padding: 50px 0px;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                position: initial;
+                .contenedor_izq{
+                    width:100%;
+                    padding: 10px 0px;
+                    margin-left: initial;
+                    z-index: initial;
+                    .titulo_acerca{
+                        width: 90%;
+                        margin: auto;
+                        padding: 0px;
+                        font-size: $SIZE_SUB-TITULOS_MOVIL;
+                        color:$COLOR_ORANGE; 
+                        line-height: 40px;
+                        font-weight: 700; 
+                        text-align: center;
+                    }
+                    
+                    .contenedorIzq_parrBtn{
+                        margin-top: 20px;
+                        width: 100%;
+                        padding: 5px 20px;
+                        .descripcion_acerca{
+                            color:rgb(255, 255, 255);
+                            font-weight: 300    ;
+                            line-height: 25px;
+                            position: relative;
+                            z-index: 10;  
+                            text-align: center;
+                        }
+    
+                        .btnAcerca{
+                            margin-top: 30px;
+                            margin-left: calc(50% - 100px);
+                            width: 200px;
+                            padding: 5px;
+                            background: transparent;
+                            border: 1px solid $COLOR_ORANGE;
+                            color: $COLOR_ORANGE;
+                            font-size:16px;
+                            font-weight: 300;
+                            transition-duration: 0.1s;
+                            transition-timing-function: ease;
+                            transition: 0.2s all;
+                            .iconAB{
+                                margin-left: 5px;
+                                font-size: 25px;
+                                color: $COLOR_ORANGE;
+                                transition: 0.2s all;
+    
+                            }
+                        }
+                        
+                    }
+        
+                }
+                .contenedor_der{
+                    position: initial;
+                    top:initial;
+                    right:initial;
+                    width:80%;
+                    height:initial;
+                    margin: 20px auto;
+                    .contenedor_der_image{
+                        width: 100%;
+                        height:initial;
                     }
                 } 
             }
@@ -409,8 +1022,8 @@ RESPONSIVE DESING OFICIAL NUEVO
             justify-content: space-between;
             align-items: center;
             .cont_descripcion_logo{
-                width: 50px;
-                height:50px;
+                width: 35px;
+                height:35px;
             }
             .cont_descripcion_reserved{
                 padding: 5px;
@@ -422,15 +1035,15 @@ RESPONSIVE DESING OFICIAL NUEVO
                 }
             }
             .cont_descripcion_redes{
-                width: 110px;
+                width: 90px;
                 padding: 10px 0px;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
                 align-items: center;
                 .cont_descripcion_redes_social{
-                    width: 30px;
-                    height: 30px;
+                    width: 25px;
+                    height: 25px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -450,6 +1063,249 @@ RESPONSIVE DESING OFICIAL NUEVO
                 }
             }
         }
+        
+    }
+    
+}
+
+
+
+
+
+/*******************************
+*********************************/
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        overflow: hidden;
+        //padding: 10px 0px;
+    
+        //BLOCK HEADER
+        .containerHeader{
+            width: 100%;
+            padding: 10px 0px;
+            background:$colorAzulOscuro;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            z-index: 500;
+            .containerHeader_logo{
+                width: 210px;
+                height: 70px;
+                margin-left: 20px;
+            }
+            .containerHeader_ul{
+                width: 250px;
+                height: 100vh;
+                padding: 10px 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items:flex-start;
+                position: fixed;
+                left: -100%;
+                top: 80px;
+                background:$colorAzulOscuro;
+                overflow: hidden;
+                transition: 0.3s all ease-in;
+                .containerHeader_ul_li{
+                    width: 85%;
+                    padding: 18px 20px;
+                    list-style: none;
+                    text-align: start;
+                    transition: 0.3s linear;
+                    margin-left: 20px;
+                    margin-bottom: 5px;
+                    border-radius:10px 10px 10px 10px ;
+                    .containerHeader_ul_li_a{
+                        text-decoration: none;
+                        color: white;
+                        transition: 0.8s linear;
+                        font-weight: 400;
+
+                    }
+                }
+
+                .containerHeader_ul_li:hover{
+                    background: $COLOR_ORANGE;
+                    .containerHeader_ul_li_a{
+                        color: $colorAzulOscuro;
+                        font-weight: 400;
+                    }
+                }
+    
+            }
+
+            .containerHeader_ul::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                top:calc(50% - 15px);
+                display: block;
+                border-bottom: 15px solid transparent;
+                border-top: 15px solid transparent;
+                border-left: 15px solid $COLOR_ORANGE;
+                border-right: 15px solid transparent;
+
+            }
+
+            .containerHeader_ul_JS{
+                left: 0;
+            }
+            .containerHeader_btn{
+                margin-right: 20px;
+                display: block;
+            }
+        }
+    
+        //BLOCK ABOUT AS
+        #cont_descripcion_foto{
+            margin-top: 80px;
+            width: 100%;
+            background:$colorAzul;
+            background-image: url(../image/fondoPro.jpg);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            .contBase{
+                width: 100%;
+                background:rgba(3, 4, 40, 0.808);
+                padding: 70px 0px;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                position: initial;
+                .contenedor_izq{
+                    width:100%;
+                    padding: 10px 0px;
+                    margin-left: initial;
+                    z-index: initial;
+                    .titulo_acerca{
+                        width: 90%;
+                        margin: auto;
+                        padding: 0px;
+                        font-size: $SIZE_SUB-TITULOS_MOVIL;
+                        color:$COLOR_ORANGE; 
+                        line-height: 40px;
+                        font-weight: 700; 
+                        text-align: center;
+                    }
+                    
+                    .contenedorIzq_parrBtn{
+                        margin-top: 20px;
+                        width: 100%;
+                        padding: 5px 20px;
+                        .descripcion_acerca{
+                            color:rgb(255, 255, 255);
+                            font-weight: 300    ;
+                            line-height: 25px;
+                            position: relative;
+                            z-index: 10;  
+                            text-align: center;
+                        }
+    
+                        .btnAcerca{
+                            margin-top: 30px;
+                            margin-left: calc(50% - 100px);
+                            width: 200px;
+                            padding: 5px;
+                            background: transparent;
+                            border: 1px solid $COLOR_ORANGE;
+                            color: $COLOR_ORANGE;
+                            font-size:16px;
+                            font-weight: 300;
+                            transition-duration: 0.1s;
+                            transition-timing-function: ease;
+                            transition: 0.2s all;
+                            .iconAB{
+                                margin-left: 5px;
+                                font-size: 25px;
+                                color: $COLOR_ORANGE;
+                                transition: 0.2s all;
+    
+                            }
+                        }
+                        
+                    }
+        
+                }
+                .contenedor_der{
+                    position: initial;
+                    top:initial;
+                    right:initial;
+                    width:80%;
+                    height:initial;
+                    margin: 20px auto;
+                    .contenedor_der_image{
+                        width: 100%;
+                        height:initial;
+                    }
+                } 
+            }
+    
+           
+        }
+    
+        //BLOCK FOOTER
+        .cont_descripcion_footer{
+            width: 100%;
+            padding: 10px 20px;
+            background:$COLOR_ORANGE;
+            display: flex;
+            flex-direction:column;
+            justify-content: flex-start;
+            align-items: center;
+            .cont_descripcion_logo{
+                width: 40px;
+                height:40px;
+            }
+            .cont_descripcion_reserved{
+                padding: 5px;
+                .cont_descripcion_reserved_text{
+                    color: white;
+                    .text{
+                        color: $colorAzul;
+                    }
+                }
+            }
+            .cont_descripcion_redes{    
+                width: 90px;
+                padding: 10px 0px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .cont_descripcion_redes_social{
+                    width: 25px;
+                    height: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: $colorAzul;
+                    border-radius: 5px;
+                    .conRed{
+                        font-size: 15px;
+                        color: $COLOR_ROSADO;
+                        transition: 0.2s linear;
+                    }
+                    &:hover{
+                        .conRed{
+                            color:$colorVerde;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        
     }
     
 }
