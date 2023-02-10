@@ -2067,7 +2067,6 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 100%;
     padding: 30px 0px;
     background: #11182b;
-    background: brown;
   }
   .containerHeaderContServicios .container_banner {
     width: 100%;
@@ -2097,7 +2096,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     padding-bottom: 0px;
   }
   .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_title {
-    font-size: 45px;
+    font-size: 36px;
     text-align: center;
     color: #efb60d;
   }
@@ -2107,39 +2106,11 @@ RESPONSIVE DESING OFICIAL NUEVO
     padding: 10px 0px;
     text-align: center;
     color: white;
-    font-size: 23px;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_img {
     margin: 30px auto;
     width: 90%;
-  }
-  .containerHeaderContServicios .containerRef {
-    width: 700px;
-    padding: 10px;
-    background: transparent;
-    margin: 50px auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .containerHeaderContServicios .containerRef .containerRef_box {
-    width: 200px;
-    padding: 15px;
-    border: 1.5px solid #efb60d;
-    border-radius: 3px;
-    margin-bottom: 10px;
-    transition: 0.1s all;
-  }
-  .containerHeaderContServicios .containerRef .containerRef_box .containerRef_box_image {
-    width: 80px;
-    height: 80px;
-    margin: auto;
-  }
-  .containerHeaderContServicios .containerRef .containerRef_box .containerRef_box_text {
-    color: white;
-    text-align: center;
   }
   .containerHeaderContServicios .containerServices {
     width: 100%;
@@ -2156,11 +2127,11 @@ RESPONSIVE DESING OFICIAL NUEVO
     align-items: center;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_image {
-    width: 50%;
-    height: initial;
+    width: 40%;
+    height: 320px;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text {
-    width: 400px;
+    width: 450px;
     padding: 10px;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxA_text_title {
@@ -2188,11 +2159,11 @@ RESPONSIVE DESING OFICIAL NUEVO
     align-items: center;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_image {
-    width: 50%;
-    height: initial;
+    width: 40%;
+    height: 320px;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text {
-    width: 400px;
+    width: 450px;
     padding: 10px;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_title {
@@ -2206,15 +2177,15 @@ RESPONSIVE DESING OFICIAL NUEVO
     color: white;
   }
   .containerHeaderContServicios .containerWeb {
-    margin-top: 100px;
+    margin-top: 40px;
     width: 100%;
     padding: 10px 0px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_title {
-    width: 45%;
+    width: 60%;
     line-height: 35px;
     color: #efb60d;
-    font-size: 35px;
+    font-size: 36px;
     margin: auto;
     text-align: center;
   }
@@ -2223,6 +2194,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     margin: 30px auto;
     text-align: center;
     color: white;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block {
     width: 100%;
@@ -2234,72 +2206,55 @@ RESPONSIVE DESING OFICIAL NUEVO
     position: relative;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_image {
-    width: 450px;
-    height: 350px;
+    width: 50%;
+    height: 400px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     position: absolute;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 50px 5px;
     top: 50px;
-    left: calc(50% - 420px);
+    left: 20px;
     background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    color: white;
-    font-size: 25px;
-    background: #0c1b32;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_text {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
-    margin-top: 6px;
+    margin-top: 15px;
     color: #96aadb;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
     width: 200px;
-    height: 200px;
-    padding: 20px;
+    height: 220px;
+    padding: 10px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 50px 5px;
     position: absolute;
     top: 300px;
-    left: calc(50% - 430px);
+    left: 20px;
     background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    background: #0c1b32;
-    color: white;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_text {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
     margin-top: 6px;
@@ -2307,33 +2262,24 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 5px 50px;
     position: absolute;
     top: 50px;
-    right: calc(50% - 420px);
+    right: 20px;
     background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    background: #0c1b32;
-    color: white;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_text {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
     margin-top: 6px;
@@ -2341,33 +2287,24 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 5px 50px;
     position: absolute;
     top: 300px;
-    right: calc(50% - 430px);
+    right: 20px;
     background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    color: white;
-    background: #0c1b32;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_text {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
     margin-top: 6px;
@@ -2378,10 +2315,10 @@ RESPONSIVE DESING OFICIAL NUEVO
     padding: 10px 0px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_title {
-    width: 50%;
+    width: 70%;
     line-height: 35px;
     color: #efb60d;
-    font-size: 32px;
+    font-size: 36px;
     text-align: center;
     margin: 30px auto;
   }
@@ -2401,6 +2338,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box .containerWeb_blockArticle_box_p {
     color: white;
     text-align: justify;
+    font-size: 14px;
   }
 
   /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
@@ -2412,7 +2350,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
   /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
   .containerHeaderContServicios {
-    margin-top: 80px;
+    margin-top: 60px;
     width: 100%;
     padding: 30px 0px;
     background: #11182b;
@@ -2437,7 +2375,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .containerHeaderContServicios .container_banner .banner_text .containerHeaderContServicios_banner_title {
     color: white;
-    font-size: 100px;
+    font-size: 80px;
   }
   .containerHeaderContServicios .containerHeaderContServicios_info {
     width: 100%;
@@ -2445,7 +2383,10 @@ RESPONSIVE DESING OFICIAL NUEVO
     padding-bottom: 0px;
   }
   .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_title {
-    font-size: 40px;
+    width: 80%;
+    margin: auto;
+    line-height: 40px;
+    font-size: 36px;
     text-align: center;
     color: #efb60d;
   }
@@ -2455,7 +2396,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     padding: 10px 0px;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_img {
     margin: 10px auto;
@@ -2497,7 +2438,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .containerHeaderContServicios .containerServices .containerServices_boxA {
     width: 100%;
     margin: auto;
-    padding: 50px 0px;
+    padding: 50px 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -2508,18 +2449,21 @@ RESPONSIVE DESING OFICIAL NUEVO
     height: initial;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text {
-    width: 350px;
+    width: 400px;
     padding: 10px;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxA_text_title {
     color: #efb60d;
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 600;
+    width: 250px;
+    line-height: 35px;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxA_text_text {
     width: 80%;
     margin-top: 20px;
     color: white;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerServices {
     width: 100%;
@@ -2529,7 +2473,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .containerHeaderContServicios .containerServices .containerServices_boxB {
     width: 100%;
     margin: auto;
-    padding: 50px 0px;
+    padding: 50px 10px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -2540,29 +2484,32 @@ RESPONSIVE DESING OFICIAL NUEVO
     height: initial;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text {
-    width: 350px;
+    width: 400px;
     padding: 10px;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_title {
     color: #efb60d;
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 600;
+    width: 200px;
+    line-height: 35px;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_text {
     width: 80%;
     margin-top: 20px;
     color: white;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerWeb {
-    margin-top: 100px;
+    margin-top: 40px;
     width: 100%;
     padding: 10px 0px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_title {
-    width: 45%;
+    width: 60%;
     line-height: 35px;
     color: #efb60d;
-    font-size: 35px;
+    font-size: 36px;
     margin: auto;
     text-align: center;
   }
@@ -2571,165 +2518,132 @@ RESPONSIVE DESING OFICIAL NUEVO
     margin: 30px auto;
     text-align: center;
     color: white;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block {
     width: 100%;
     margin: 50px auto;
-    height: 700px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_image {
-    width: 420px;
-    height: 330px;
+    width: 70%;
+    height: 400px;
+    opacity: 0.4;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     position: absolute;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 50px 5px;
-    top: 30px;
-    left: calc(50% - 320px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    color: white;
-    font-size: 25px;
-    background: #0c1b32;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 50px;
+    left: 50px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
-    margin-top: 6px;
-    color: #96aadb;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
     width: 200px;
-    height: 200px;
-    padding: 20px;
+    height: 220px;
+    padding: 10px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 50px 5px;
     position: absolute;
-    top: 480px;
-    left: calc(50% - 350px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    background: #0c1b32;
-    color: white;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 300px;
+    left: 150px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 5px 50px;
     position: absolute;
-    top: 30px;
-    right: calc(50% - 320px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    background: #0c1b32;
-    color: white;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 50px;
+    right: 50px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 5px 50px;
     position: absolute;
-    top: 480px;
-    right: calc(50% - 350px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    color: white;
-    background: #0c1b32;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 300px;
+    right: 150px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
     width: 100%;
     padding: 10px 0px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_title {
-    width: 50%;
+    width: 80%;
     line-height: 35px;
     color: #efb60d;
-    font-size: 32px;
+    font-size: 34px;
     text-align: center;
     margin: 30px auto;
   }
@@ -2749,7 +2663,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box .containerWeb_blockArticle_box_p {
     color: white;
     text-align: justify;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
@@ -2790,12 +2704,12 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .containerHeaderContServicios .containerHeaderContServicios_info {
     width: 100%;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 0px;
   }
   .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_title {
     width: 80%;
-    font-size: 40px;
+    font-size: 34px;
     text-align: center;
     color: #efb60d;
     line-height: 40px;
@@ -2807,17 +2721,17 @@ RESPONSIVE DESING OFICIAL NUEVO
     padding: 10px 0px;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_img {
     margin: 10px auto;
     width: 100%;
   }
   .containerHeaderContServicios .containerRef {
-    width: 100%;
+    width: 600px;
     padding: 10px;
     background: transparent;
-    margin: 50px auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -2825,8 +2739,8 @@ RESPONSIVE DESING OFICIAL NUEVO
     align-items: center;
   }
   .containerHeaderContServicios .containerRef .containerRef_box {
-    width: 190px;
-    height: 150px;
+    width: 180px;
+    height: 160px;
     padding: 10px;
     border: 1.5px solid #efb60d;
     border-radius: 3px;
@@ -2841,6 +2755,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .containerHeaderContServicios .containerRef .containerRef_box .containerRef_box_text {
     color: white;
     text-align: center;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerServices {
     width: 100%;
@@ -2867,7 +2782,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxA_text_title {
     width: 60%;
     color: #efb60d;
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 600;
     line-height: 30px;
   }
@@ -2902,7 +2817,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_title {
     width: 60%;
     color: #efb60d;
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 600;
     line-height: 30px;
   }
@@ -2921,7 +2836,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 60%;
     line-height: 35px;
     color: #efb60d;
-    font-size: 30px;
+    font-size: 34px;
     margin: auto;
     text-align: center;
   }
@@ -2934,152 +2849,118 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block {
     width: 100%;
-    margin: 50px auto;
-    height: 800px;
+    margin: 30px auto;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_image {
-    width: 420px;
-    height: 330px;
+    width: 70%;
+    height: 400px;
+    opacity: 0.4;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     position: absolute;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 50px 5px;
-    top: 30px;
-    left: calc(50% - 250px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    color: white;
-    font-size: 25px;
-    background: #0c1b32;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 50px;
+    left: 50px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
-    margin-top: 6px;
-    color: #96aadb;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
     width: 200px;
-    height: 200px;
-    padding: 20px;
+    height: 220px;
+    padding: 10px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 50px 5px;
     position: absolute;
-    top: 560px;
-    left: calc(50% - 250px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    background: #0c1b32;
-    color: white;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 300px;
+    left: 100px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 5px 50px;
     position: absolute;
-    top: 30px;
-    right: calc(50% - 250px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    background: #0c1b32;
-    color: white;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 50px;
+    right: 50px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 5px 50px;
     position: absolute;
-    top: 560px;
-    right: calc(50% - 250px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    color: white;
-    background: #0c1b32;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 300px;
+    right: 100px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
     width: 100%;
@@ -3089,9 +2970,9 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 80%;
     line-height: 35px;
     color: #efb60d;
-    font-size: 30px;
+    font-size: 34px;
     text-align: center;
-    margin: 30px auto;
+    margin: 0px auto;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block {
     width: 100%;
@@ -3103,13 +2984,13 @@ RESPONSIVE DESING OFICIAL NUEVO
     align-items: flex-start;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box {
-    width: 45%;
+    width: 46%;
     padding: 5px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box .containerWeb_blockArticle_box_p {
     color: white;
     text-align: justify;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
@@ -3162,7 +3043,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     margin: auto;
   }
   .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_descrpcion {
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 10px 0px;
     text-align: center;
@@ -3235,7 +3116,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 100%;
     margin-top: 20px;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
   }
   .containerHeaderContServicios .containerServices {
     width: 100%;
@@ -3270,7 +3151,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 100%;
     margin-top: 20px;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb {
     margin-top: 50px;
@@ -3278,7 +3159,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     padding: 10px 0px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_title {
-    width: 60%;
+    width: 80%;
     line-height: 35px;
     color: #efb60d;
     font-size: 30px;
@@ -3286,7 +3167,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     text-align: center;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_description {
-    width: 70%;
+    width: 80%;
     margin: 30px auto;
     text-align: center;
     color: white;
@@ -3294,159 +3175,125 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block {
     width: 100%;
-    margin: 50px auto;
-    height: 800px;
+    margin: 30px auto;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_image {
-    width: 420px;
-    height: 330px;
+    width: 70%;
+    height: 400px;
+    opacity: 0.4;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     position: absolute;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 50px 5px;
-    top: 30px;
-    left: calc(50% - 220px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    color: white;
-    font-size: 25px;
-    background: #0c1b32;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 50px;
+    left: 20px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
-    margin-top: 6px;
-    color: #96aadb;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
     width: 200px;
-    height: 200px;
-    padding: 20px;
+    height: 220px;
+    padding: 10px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 50px 5px;
     position: absolute;
-    top: 580px;
-    left: calc(50% - 220px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    background: #0c1b32;
-    color: white;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 300px;
+    left: 20px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 5px 50px;
     position: absolute;
-    top: 30px;
-    right: calc(50% - 220px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    background: #0c1b32;
-    color: white;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 50px;
+    right: 20px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 5px 50px;
     position: absolute;
-    top: 580px;
-    right: calc(50% - 220px);
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    color: white;
-    background: #0c1b32;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    top: 300px;
+    right: 20px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
     width: 100%;
     padding: 10px 0px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_title {
-    width: 80%;
+    width: 90%;
     line-height: 35px;
     color: #efb60d;
     font-size: 30px;
@@ -3469,7 +3316,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box .containerWeb_blockArticle_box_p {
     color: white;
     text-align: justify;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
@@ -3481,7 +3328,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
   /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
   .containerHeaderContServicios {
-    margin-top: 65px;
+    margin-top: 60px;
     width: 100%;
     padding: 30px 0px;
     background: #11182b;
@@ -3514,11 +3361,11 @@ RESPONSIVE DESING OFICIAL NUEVO
     padding-bottom: 0px;
   }
   .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_title {
-    width: 80%;
+    width: 90%;
     font-size: 30px;
     text-align: center;
     color: #efb60d;
-    line-height: 38px;
+    line-height: 30px;
     margin: auto;
   }
   .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_descrpcion {
@@ -3527,10 +3374,10 @@ RESPONSIVE DESING OFICIAL NUEVO
     padding: 10px 0px;
     text-align: center;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
   }
   .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_img {
-    margin: 10px auto;
+    margin: 0px auto;
     width: 100%;
   }
   .containerHeaderContServicios .containerRef {
@@ -3569,7 +3416,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 100%;
     margin-top: 20px;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxB_text_buton {
     margin-top: 30px;
@@ -3626,7 +3473,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 100%;
     margin-top: 20px;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_buton {
     margin-top: 30px;
@@ -3657,180 +3504,142 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .containerHeaderContServicios .containerWeb .containerWeb_title {
     width: 90%;
-    line-height: 35px;
+    line-height: 30px;
     color: #efb60d;
     font-size: 30px;
     margin: auto;
     text-align: center;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_description {
-    width: 90%;
-    margin: 30px auto;
+    width: 80%;
+    margin: 20px auto;
     text-align: center;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block {
     width: 100%;
-    margin: 50px auto;
-    height: 1250px;
+    margin: 20px auto;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_image {
-    width: 90%;
-    height: 300px;
-    position: absolute;
-    bottom: 0;
+    width: 100%;
+    height: 450px;
+    opacity: 0.4;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     position: absolute;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 50px 5px;
-    top: 10px;
+    top: 30px;
     left: 20px;
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    color: white;
-    font-size: 25px;
-    background: #0c1b32;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
-    margin-top: 6px;
-    color: #96aadb;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 16px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
     width: 200px;
-    height: 200px;
-    padding: 20px;
+    height: 220px;
+    padding: 10px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 50px 5px;
     position: absolute;
+    top: 260px;
     left: initial;
-    top: 250px;
     right: 20px;
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    background: #0c1b32;
-    color: white;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 5px 50px;
     position: absolute;
-    top: 480px;
-    left: initial;
-    bottom: initial;
+    top: 500px;
+    right: initial;
     left: 20px;
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    background: #0c1b32;
-    color: white;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     border: 2px solid #efb60d;
     border-radius: 5px 5px 5px 50px;
     position: absolute;
-    top: 700px;
-    bottom: initial;
+    top: 730px;
     right: 20px;
-    background: #0c1b32;
-  }
-  .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_number {
-    width: 40px;
-    height: 40px;
-    color: white;
-    background: #0c1b32;
-    font-size: 25px;
-    border: 2px solid #efb60d;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -20px;
+    background: rgba(12, 27, 50, 0.6980392157);
+    text-align: center;
+    /*.containerWeb_box_number{
+        LOS ESTILOS SE MANTIENEN
+    }*/
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_text {
-    color: white;
-    font-size: 20px;
+    color: #f8c630;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
     margin-top: 6px;
-    color: #96aadb;
+    color: #ffffff;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
     width: 100%;
     padding: 10px 0px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_title {
-    width: 80%;
+    width: 90%;
     line-height: 35px;
     color: #efb60d;
     font-size: 30px;
@@ -3839,21 +3648,21 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block {
     width: 100%;
-    padding: 10px;
+    padding: 10px 0px;
     margin: 10px auto;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box {
-    width: 100%;
+    width: 45%;
     padding: 5px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box .containerWeb_blockArticle_box_p {
     color: white;
     text-align: justify;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
