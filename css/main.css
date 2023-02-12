@@ -475,13 +475,14 @@ RESPONSIVE DESING OFICIAL NUEVO
     position: fixed;
     left: -100%;
     top: 100px;
-    background: #060f1d;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(rgb(8, 8, 46), rgba(0, 0, 0, 0.4392156863));
     overflow: hidden;
     transition: 0.3s all ease-in;
   }
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li {
     width: 85%;
-    padding: 18px 20px;
+    padding: 15px 20px;
     list-style: none;
     text-align: start;
     transition: 0.3s linear;
@@ -494,6 +495,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     color: white;
     transition: 0.8s linear;
     font-weight: 400;
+    font-size: 16px;
   }
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li:hover {
     background: #f8c630;
@@ -643,16 +645,17 @@ RESPONSIVE DESING OFICIAL NUEVO
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(rgb(8, 8, 46), rgba(0, 0, 0, 0.4392156863));
     position: fixed;
     left: -100%;
     top: 100px;
-    background: #060f1d;
     overflow: hidden;
     transition: 0.3s all ease-in;
   }
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li {
     width: 85%;
-    padding: 18px 20px;
+    padding: 15px 20px;
     list-style: none;
     text-align: start;
     transition: 0.3s linear;
@@ -663,8 +666,10 @@ RESPONSIVE DESING OFICIAL NUEVO
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li .containerHeader_ul_li_a {
     text-decoration: none;
     color: white;
+    font-size: 16px;
     transition: 0.8s linear;
     font-weight: 400;
+    font-size: 16px;
   }
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li:hover {
     background: #f8c630;
@@ -808,16 +813,17 @@ RESPONSIVE DESING OFICIAL NUEVO
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(rgb(8, 8, 46), rgba(0, 0, 0, 0.4392156863));
     position: fixed;
     left: -100%;
     top: 100px;
-    background: #060f1d;
     overflow: hidden;
     transition: 0.3s all ease-in;
   }
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li {
     width: 85%;
-    padding: 18px 20px;
+    padding: 15px 20px;
     list-style: none;
     text-align: start;
     transition: 0.3s linear;
@@ -830,6 +836,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     color: white;
     transition: 0.8s linear;
     font-weight: 400;
+    font-size: 16px;
   }
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li:hover {
     background: #f8c630;
@@ -1017,6 +1024,8 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 250px;
     height: 100vh;
     padding: 10px 0px;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(rgb(8, 8, 46), rgba(0, 0, 0, 0.4392156863));
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1024,13 +1033,12 @@ RESPONSIVE DESING OFICIAL NUEVO
     position: fixed;
     left: -100%;
     top: 80px;
-    background: #060f1d;
     overflow: hidden;
     transition: 0.3s all ease-in;
   }
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li {
     width: 85%;
-    padding: 18px 20px;
+    padding: 15px 20px;
     list-style: none;
     text-align: start;
     transition: 0.3s linear;
@@ -1043,6 +1051,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     color: white;
     transition: 0.8s linear;
     font-weight: 400;
+    font-size: 16px;
   }
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li:hover {
     background: #f8c630;
@@ -4155,7 +4164,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   margin: auto;
   padding: 10px 0px;
   position: relative;
-  z-index: 100;
+  z-index: 50;
 }
 .containerContact .containerContactBig .containerContact_form .containerContact_form_caja {
   width: 100%;
@@ -4271,6 +4280,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 100%;
     margin: auto;
     padding: 10px 0px;
+    z-index: 0;
   }
   .containerContact .containerContactBig .containerContact_form .containerContact_form_caja {
     width: 100%;
@@ -6013,7 +6023,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   position: fixed;
   bottom: 80px;
   left: 20px;
-  z-index: 50;
+  z-index: 100;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -6040,7 +6050,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     height: 40px;
     padding: 5px;
     position: fixed;
-    bottom: 50px;
+    z-index: 100;
     left: 10px;
     z-index: 20;
     display: flex;

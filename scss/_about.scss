@@ -462,6 +462,7 @@
             top: 0;
             right: 0;
             z-index: 500;
+
             .containerHeader_logo{
                 width: 250px;
                 height: 80px;
@@ -478,23 +479,26 @@
                 position: fixed;
                 left: -100%;
                 top: 100px;
-                background:$colorAzulOscuro;
+                backdrop-filter: blur(20px);
+                background:linear-gradient(rgb(8, 8, 46), #00000070);
                 overflow: hidden;
                 transition: 0.3s all ease-in;
                 .containerHeader_ul_li{
                     width: 85%;
-                    padding: 18px 20px;
+                    padding: 15px 20px;
                     list-style: none;
                     text-align: start;
                     transition: 0.3s linear;
                     margin-left: 20px;
                     margin-bottom: 5px;
                     border-radius:10px 10px 10px 10px ;
+
                     .containerHeader_ul_li_a{
                         text-decoration: none;
                         color: white;
                         transition: 0.8s linear;
                         font-weight: 400;
+                        font-size: 16px;
 
                     }
                 }
@@ -674,15 +678,16 @@
                 flex-direction: column;
                 justify-content: flex-start;
                 align-items:flex-start;
+                backdrop-filter: blur(20px);
+                background:linear-gradient(rgb(8, 8, 46), #00000070);
                 position: fixed;
                 left: -100%;
                 top: 100px;
-                background:$colorAzulOscuro;
                 overflow: hidden;
                 transition: 0.3s all ease-in;
                 .containerHeader_ul_li{
                     width: 85%;
-                    padding: 18px 20px;
+                    padding: 15px 20px;
                     list-style: none;
                     text-align: start;
                     transition: 0.3s linear;
@@ -692,8 +697,10 @@
                     .containerHeader_ul_li_a{
                         text-decoration: none;
                         color: white;
+                        font-size: 16px;
                         transition: 0.8s linear;
                         font-weight: 400;
+                        font-size: 16px;
 
                     }
                 }
@@ -869,15 +876,16 @@
                 flex-direction: column;
                 justify-content: flex-start;
                 align-items:flex-start;
+                backdrop-filter: blur(20px);
+                background:linear-gradient(rgb(8, 8, 46), #00000070);
                 position: fixed;
                 left: -100%;
                 top: 100px;
-                background:$colorAzulOscuro;
                 overflow: hidden;
                 transition: 0.3s all ease-in;
                 .containerHeader_ul_li{
                     width: 85%;
-                    padding: 18px 20px;
+                    padding: 15px 20px;
                     list-style: none;
                     text-align: start;
                     transition: 0.3s linear;
@@ -889,6 +897,7 @@
                         color: white;
                         transition: 0.8s linear;
                         font-weight: 400;
+                        font-size: 16px;
 
                     }
                 }
@@ -1110,6 +1119,8 @@
                 width: 250px;
                 height: 100vh;
                 padding: 10px 0px;
+                backdrop-filter: blur(20px);
+                background:linear-gradient(rgb(8, 8, 46), #00000070);
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-start;
@@ -1117,12 +1128,11 @@
                 position: fixed;
                 left: -100%;
                 top: 80px;
-                background:$colorAzulOscuro;
                 overflow: hidden;
                 transition: 0.3s all ease-in;
                 .containerHeader_ul_li{
                     width: 85%;
-                    padding: 18px 20px;
+                    padding: 15px 20px;
                     list-style: none;
                     text-align: start;
                     transition: 0.3s linear;
@@ -1134,7 +1144,7 @@
                         color: white;
                         transition: 0.8s linear;
                         font-weight: 400;
-
+                        font-size: 16px;
                     }
                 }
 
