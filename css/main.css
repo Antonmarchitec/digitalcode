@@ -5961,11 +5961,11 @@ h3 {
 .contBtnTop {
   position: fixed;
   right: 20px;
-  bottom: 140px;
+  bottom: 70px;
   z-index: 40;
 }
 .contBtnTop .iconTop {
-  font-size: 40px;
+  font-size: 35px;
   color: #ffffff;
   color: #efb60d;
   opacity: 0;
@@ -6007,33 +6007,57 @@ RESPONSIVE DESING OFICIAL NUEVO
 
 */
 .contBtnWatts {
-  width: 40px;
-  height: 40px;
+  width: 140px;
+  height: 38px;
+  padding: 0px 10px;
   position: fixed;
-  bottom: 75px;
-  right: 20px;
+  bottom: 80px;
+  left: 20px;
   z-index: 50;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  background: #ffffff;
+}
+.contBtnWatts .contBtnWatts_text {
+  color: #060f1d;
+  font-weight: 700;
+  font-size: 14px;
 }
 .contBtnWatts .iconWatt {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   color: rgb(78, 242, 89);
+  transition: 0.2s all;
+}
+.contBtnWatts .iconWatt:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 320px) and (max-width: 423px) {
   .contBtnWatts {
-    width: 40px;
+    width: 120px;
     height: 40px;
+    padding: 5px;
     position: fixed;
     bottom: 75px;
-    right: 20px;
+    left: 10px;
     z-index: 20;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    background: #ffffff;
+  }
+  .contBtnWatts .contBtnWatts_text {
+    color: #060f1d;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .contBtnWatts .iconWatt {
+    color: white;
+    font-size: 25px;
+    color: rgb(78, 242, 89);
+    transition: 0.2s all;
   }
 }
 /*

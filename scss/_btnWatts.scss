@@ -1,34 +1,57 @@
 @import "variables";
 
 .contBtnWatts{
-    width: 40px;
-    height: 40px;
+    width: 140px;
+    height: 38px;
+    padding: 0px 10px;
     position:fixed;
-    bottom: 75px;
-    right: 20px;
+    bottom:80px;
+    left: 20px;
     z-index: 50;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    background: $colorBlanco;
+    .contBtnWatts_text{
+        color: $colorAzulOscuro;
+        font-weight: 700;
+        font-size: 14px;
+    }
     .iconWatt{
         color: white;
-        font-size: 40px;
+        font-size: 30px;
         color: rgb(78, 242, 89);
+        transition: 0.2s all;
+    }
+    .iconWatt:hover{
+        transform: scale(1.1);
     }
 }
 
 
 @media (min-width:320px) and (max-width:423px){
     .contBtnWatts{
-        width: 40px;
+        width: 120px;
         height: 40px;
+        padding: 5px;
         position:fixed;
         bottom: 75px;
-        right: 20px;
+        left: 10px;
         z-index: 20;
         display: flex;
-        justify-content: center;
+        justify-content:space-around;
         align-items: center;
-        
+        background: $colorBlanco;
+        .contBtnWatts_text{
+            color:$colorAzulOscuro;
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .iconWatt{
+            color: white;
+            font-size: 25px;
+            color: rgb(78, 242, 89);
+            transition: 0.2s all;
+        }
     }
 }
