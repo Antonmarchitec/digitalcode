@@ -270,7 +270,7 @@
                 }
                 .button{
                     width: 180px;
-                    padding: 5px 0px;
+                    padding:10px 0px;
                     border-radius: 5px;
                     border: 2px solid $colorVerde;
                     background-color:$colorVerde;
@@ -279,6 +279,7 @@
                     margin-left:calc(50% - 90px) ;
                     cursor: pointer;
                     transition: 0.2s all;
+
                 }
                 .button:hover{
                     background-color:$colorAzul;
