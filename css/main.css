@@ -3399,6 +3399,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     align-items: center;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_image {
+    margin-top: 15px;
     width: 70%;
     height: initial;
   }
@@ -3456,6 +3457,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     align-items: center;
   }
   .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_image {
+    margin-top: 15px;
     width: 70%;
     height: initial;
   }
