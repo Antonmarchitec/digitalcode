@@ -117,7 +117,38 @@
             "tip1A": "- Página informativa.",
             "tip1B": "- página de aterrizaje.",
             "tip1C": "- landing page."
-        }        
+        },
+        
+        {
+            "id_block1":9,
+            "title1":"Template Financial",
+            "descripcion1":" --- ",
+            "image1": "./image/PROYECTOS/template_financial.jpg",
+            "tip1D": " --- ",
+
+
+
+
+            "id_block2":10,
+            "title2":"Template Startup",
+            "descripcion2":" --- ",
+            "image2": "./image/PROYECTOS/template_startup.jpg",
+            "tip2D": " --- ", 
+
+            
+            
+            "subtitleResp": "Diseño responsivo:",
+            "subtitleProy": "Tipo de proyecto:",
+
+            "dis1":"- Desktop: 1440px", 
+            "dis2":"- Tablet: 720px",
+            "dis3":"- Móvil: 320px",
+
+            "tip1A": "- Página informativa.",
+            "tip1B": "- página de aterrizaje.",
+            "tip1C": "- landing page."
+        }
+        
     ],
     
     "restaurant":[
@@ -310,7 +341,37 @@
             "tip1B": "- Sitio web.",
             "tip1C": "- landing page."
         }   
+    ],
+
+    "corporativo":[
+        {
+            "id_block1":9,
+            "title1":"Template Financial",
+            "descripcion1":" --- ",
+            "image1": "./image/PROYECTOS/template_financial.jpg",
+            "tip1D": " --- ",
+
+
+
+
+            "id_block2":10,
+            "title2":"Template Startup",
+            "descripcion2":" --- ",
+            "image2": "./image/PROYECTOS/template_startup.jpg",
+            "tip2D": " --- ", 
+
+            
+            
+            "subtitleResp": "Diseño responsivo:",
+            "subtitleProy": "Tipo de proyecto:",
+
+            "dis1":"- Desktop: 1440px", 
+            "dis2":"- Tablet: 720px",
+            "dis3":"- Móvil: 320px",
+
+            "tip1A": "- Página informativa.",
+            "tip1B": "- página de aterrizaje.",
+            "tip1C": "- landing page."
+        }
     ]
-
-
 }
